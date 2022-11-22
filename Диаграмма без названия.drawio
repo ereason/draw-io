@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T04:35:02.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="lqPTPzjo95fCApXfdw0V" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-22T04:40:30.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="NmCaDPE6PdN_eZc0lRT8" version="20.5.3" type="github" pages="2">
   <diagram id="C6kjWLTeuLRCPxCHQ4SO" name="Страница 1">
     <mxGraphModel dx="1940" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UhAqgNY9ok7voY9Afn6J" name="Страница 2">
-    <mxGraphModel dx="1940" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2010" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,44 +275,51 @@
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-4" value="main thread&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="240" y="280" width="200" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-4" source="DagHtTSFLhGbqhAZoUyn-1" target="Jaxo5HZSxw4HA_GKdRnC-13">
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-4" source="DagHtTSFLhGbqhAZoUyn-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="140" as="targetPoint" />
+            <mxPoint x="100" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DagHtTSFLhGbqhAZoUyn-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-4">
           <mxGeometry x="80" y="40" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-4" source="Jaxo5HZSxw4HA_GKdRnC-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-13" value="создание threadPool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-4">
-          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-20" value="ThreadSafeFileReader" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-4">
-          <mxGeometry x="15" y="360" width="170" height="160" as="geometry" />
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;endArrow=open;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-4" source="Jaxo5HZSxw4HA_GKdRnC-25" target="Jaxo5HZSxw4HA_GKdRnC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-25" value="создание ThreadSafeFileReader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-4">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-5" value="readerThread1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="200" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-21" value="" style="endArrow=open;html=1;rounded=1;strokeWidth=1;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-5">
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-6" value="readerThread2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;startSize=23;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="200" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-20" value="ThreadSafeFileReader" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-6">
+          <mxGeometry x="-185" y="550" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-21" value="" style="endArrow=open;html=1;rounded=1;strokeWidth=1;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="280" as="sourcePoint" />
-            <mxPoint x="100" y="360" as="targetPoint" />
+            <mxPoint x="-300" y="400" as="sourcePoint" />
+            <mxPoint x="-300" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-5">
-          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-6" value="readerThread2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;startSize=23;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="270" width="200" height="800" as="geometry" />
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Jaxo5HZSxw4HA_GKdRnC-6">
+          <mxGeometry x="-360" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-22" value="" style="endArrow=open;html=1;rounded=1;strokeWidth=1;endFill=0;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="99.41000000000008" y="290" as="sourcePoint" />
-            <mxPoint x="99.41000000000008" y="370" as="targetPoint" />
+            <mxPoint x="99" y="400" as="sourcePoint" />
+            <mxPoint x="99.41000000000008" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-16" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=6;" edge="1" parent="Jaxo5HZSxw4HA_GKdRnC-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-560" y="399.41" as="sourcePoint" />
+            <mxPoint x="360" y="399.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-7" value="writerThread2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;startSize=23;" vertex="1" parent="1">
@@ -321,10 +328,9 @@
         <mxCell id="Jaxo5HZSxw4HA_GKdRnC-8" value="writerThread1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-160" y="280" width="200" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-16" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=6;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="560" as="sourcePoint" />
-            <mxPoint x="800" y="560" as="targetPoint" />
+        <mxCell id="Jaxo5HZSxw4HA_GKdRnC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;endArrow=open;endFill=0;" edge="1" parent="1" source="Jaxo5HZSxw4HA_GKdRnC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
