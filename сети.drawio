@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T04:12:11.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="AMi4VVMqhz3ARAzDLfxo" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-08T04:58:47.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="a3623grSQSHqz1PamW94" type="github" pages="4">
   <diagram id="eavNWvNgP0PMhij1oHIw" name="Страница 1">
     <mxGraphModel dx="1113" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -539,7 +539,7 @@
         <mxCell id="1MeRUyPHZE2vKVNbhPLM-16" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;labelBackgroundColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-340" y="220" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1MeRUyPHZE2vKVNbhPLM-17" value="switch 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=16;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="1MeRUyPHZE2vKVNbhPLM-17" value="switch 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=16;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="-330" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x-fcVKMWKXttZ8fuD8AK-1" value="" style="endArrow=none;html=1;rounded=0;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#CCFF99;labelBackgroundColor=#CCFF99;strokeColor=#004C99;strokeWidth=3;" edge="1" parent="1" source="1MeRUyPHZE2vKVNbhPLM-14" target="x1FesTeXJccqb-TsKIUG-5">
@@ -693,6 +693,9 @@
         </mxCell>
         <mxCell id="EHmiGx8u_iwy5XrNuwgf-4" value="18 м" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=33;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="355" y="450" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGFymTBm4QB6nZrP82r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=33;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="240" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
